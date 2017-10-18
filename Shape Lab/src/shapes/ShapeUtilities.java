@@ -27,5 +27,19 @@ public class ShapeUtilities {
 	public static double sumPerimeter(Shape[] shapeArr)
 	{
 		double totalSum = 0;
+		for(int i = 0; i<shapeArr.length;i++)
+		{
+			totalSum += shapeArr[i].perimeter();
+		}
+		return totalSum;
+	}
+	public static double sumArea(Shape[] shapeArr)
+	{
+		double totalArea = 0;
+		for(int i = 0; i<shapeArr.length;i++)
+		{
+			totalArea += shapeArr[i].area();
+		}
+		return totalArea;
 	}
 }
