@@ -10,10 +10,15 @@ public class Circle implements Shape{
 	}
 	public double area()
 	{
-		return (pi * (rad * rad));
+		return (pi * (radius * radius));
 	}
 	public double perimeter()
 	{
-		return (2 * pi * rad);
+		return (2 * pi * radius);
+	}
+	@Override
+	public String toString() {
+		return "Circle Radius: " + radius + " Area: " + this.area() + " Perimeter: "
+				+ this.perimeter();
 	}
 }

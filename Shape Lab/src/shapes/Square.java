@@ -1,9 +1,18 @@
 package shapes;
 
-public class Square {
+public class Square extends Rectangle {
 
-	public Square() {
-		// TODO Auto-generated constructor stub
+	int side;
+
+	public Square(int side) {
+		super(side, side);
+		this.side = side;
+	}
+
+	@Override
+	public String toString() {
+		return "Square Side Length: " + side + " Area: " + this.area() + " Perimeter: "
+				+ this.perimeter();
 	}
 
 }
