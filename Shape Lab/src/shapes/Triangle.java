@@ -20,6 +20,10 @@ public class Triangle implements Shape{
 	public double perimeter()
 	{
 		return (base + side2 + side3);
+	}@Override
+	public String toString() {
+		return "Triangle base: " + base + " Second side: " + side2+ " Third Side: " + side3 + " Height: " + height +" Area: "+ this.area() + " Perimeter: "
+				+ this.perimeter();
 	}
-
+	
 }

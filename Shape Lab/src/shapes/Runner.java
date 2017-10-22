@@ -1,5 +1,7 @@
 package shapes;
 /**
+ * @Ramisha Sarwar
+ * Date: 10/20/17
  * @author Mr Levin Created 10/16/2017
  * 
  *         Lab 2.1 shapes Create implement all necessary methods in this package
@@ -19,9 +21,11 @@ public class Runner {
 		Shape circle1 = new Circle(3);
 		Shape rectangle1 = new Rectangle(10, 4);
 		Shape square1 = new Square(10);
+		Shape triangle1 = new Triangle(10, 5, 6, 8);
+		Shape para1 = new Parallelogram(10, 8, 7);
 
-		System.out.println("First test out the hard coded shape arraay.\n\n");
-		Shape[] shapeArr = { circle1, rectangle1, square1 };
+		System.out.println("First test out the hard coded shape array.\n\n");
+		Shape[] shapeArr = { circle1, rectangle1, square1, triangle1, para1 };
 
 		for (Shape shape : shapeArr) {
 			System.out.println(shape);
