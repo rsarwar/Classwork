@@ -1,5 +1,7 @@
 package shapes;
-
+/*
+ * Ramisha Sarwar
+ */
 public class Parallelogram extends Rectangle{
 	double length;
 	double width;

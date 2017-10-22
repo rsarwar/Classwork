@@ -1,5 +1,7 @@
 package shapes;
-
+/*
+ * Ramisha Sarwar
+ */
 public class Square extends Rectangle {
 
 	int side;

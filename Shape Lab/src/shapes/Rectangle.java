@@ -1,5 +1,7 @@
 package shapes;
-
+/*
+ * Ramisha Sarwar
+ */
 public class Rectangle implements Shape {
 
 	private double length;
